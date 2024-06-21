@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="weight_history_title">Weight History</string>
+    <string name="update_weight_button">Update Weight</string>
+
+</resources>

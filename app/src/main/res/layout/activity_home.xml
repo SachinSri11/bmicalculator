@@ -1,0 +1,63 @@
+<!-- res/layout/activity_home.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="24sp"
+        android:textColor="@color/textColorPrimary"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/height_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:textSize="18sp"
+        android:textColor="@color/textColorSecondary"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/weight_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textSize="18sp"
+        android:textColor="@color/textColorSecondary"
+        android:layout_marginBottom="16dp" />
+    <TextView
+        android:id="@+id/bmi_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI"
+        android:textSize="18sp"
+        android:textColor="@color/textColorSecondary"
+        android:layout_marginBottom="16dp" />
+    <Button
+        android:id="@+id/update_details_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Details"
+        android:padding="12dp"
+        android:onClick="onUpdateDetailsClick"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/backgroundColor"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/view_weight_history_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Weight History"
+        android:padding="12dp"
+        android:onClick="onViewWeightHistoryClick"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/backgroundColor" />
+</LinearLayout>
